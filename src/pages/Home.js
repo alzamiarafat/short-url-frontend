@@ -37,7 +37,7 @@ const Home = () => {
             </div>
             {isShowShortUrl ? <div className="flex justify-center mt-10">
                 <div className="w-full max-w-3xl bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
-                    <div class="p-6 text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
+                    <div class="p-5 text-blue-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
                         <div class="flex justify-around">
                             <span class="font-medium">{shortUrl}</span>
                             <button class="font-medium" onClick={() => copy()}>Copy</button>
